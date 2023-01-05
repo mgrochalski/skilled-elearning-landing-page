@@ -1,0 +1,15 @@
+@import '../../variables.scss';
+
+.main {
+  background-color: $darkBlue;
+}
+
+.content {
+  display: flex;
+  height: 120px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 1110px;
+  margin: auto;
+}
