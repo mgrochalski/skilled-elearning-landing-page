@@ -1,15 +1,23 @@
 {
   "files": {
-    "main.css": "/skilled-elearning-landing-page/static/css/main.073c9b0a.css",
-    "main.js": "/skilled-elearning-landing-page/static/js/main.6b06cc6a.js",
+    "main.css": "/skilled-elearning-landing-page/static/css/main.f7c6ef89.css",
+    "main.js": "/skilled-elearning-landing-page/static/js/main.eb80b150.js",
     "static/js/787.d60097e4.chunk.js": "/skilled-elearning-landing-page/static/js/787.d60097e4.chunk.js",
+    "static/media/image-hero-desktop.png": "/skilled-elearning-landing-page/static/media/image-hero-desktop.e4dcc5c0b95534d1178e.png",
+    "static/media/logo-dark.svg": "/skilled-elearning-landing-page/static/media/logo-dark.bd6dbe3fb81a86888ece82aa3764d1a4.svg",
+    "static/media/logo-light.svg": "/skilled-elearning-landing-page/static/media/logo-light.9fb3a720f1b85b9ed9991de94726c34b.svg",
+    "static/media/icon-animation.svg": "/skilled-elearning-landing-page/static/media/icon-animation.222979d47fd2dbbc9a215695c907fd93.svg",
     "index.html": "/skilled-elearning-landing-page/index.html",
-    "main.073c9b0a.css.map": "/skilled-elearning-landing-page/static/css/main.073c9b0a.css.map",
-    "main.6b06cc6a.js.map": "/skilled-elearning-landing-page/static/js/main.6b06cc6a.js.map",
+    "static/media/icon-crypto.svg": "/skilled-elearning-landing-page/static/media/icon-crypto.8d407fcff65885d92537a9d941d476d4.svg",
+    "static/media/icon-business.svg": "/skilled-elearning-landing-page/static/media/icon-business.e1585951503a38781a9919e3ade6a40e.svg",
+    "static/media/icon-photography.svg": "/skilled-elearning-landing-page/static/media/icon-photography.eeaad81e7533c8103b7235301dce7c03.svg",
+    "static/media/icon-design.svg": "/skilled-elearning-landing-page/static/media/icon-design.06f787d808ae5438fdfee22122ff6424.svg",
+    "main.f7c6ef89.css.map": "/skilled-elearning-landing-page/static/css/main.f7c6ef89.css.map",
+    "main.eb80b150.js.map": "/skilled-elearning-landing-page/static/js/main.eb80b150.js.map",
     "787.d60097e4.chunk.js.map": "/skilled-elearning-landing-page/static/js/787.d60097e4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.6b06cc6a.js"
+    "static/css/main.f7c6ef89.css",
+    "static/js/main.eb80b150.js"
   ]
 }
