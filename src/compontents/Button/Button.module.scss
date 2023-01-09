@@ -1,6 +1,6 @@
 @import "../../variables.scss";
 
-.btn {
+@mixin btn {
   font-family: $fontFamily;
   font-style: normal;
   font-weight: 700;
@@ -15,26 +15,28 @@
 }
 
 .btn--darkBlue {
+  @include btn;
   background-color: $darkBlue;
-}
 
-.btn--darkBlue:hover {
-  background-color: $lightBlue;
+  &:hover {
+    background-color: $lightBlue;
+  }
 }
 
 .btn--pinkOrange {
+  @include btn;
   background: $transitionPinkOrange;
-}
 
-.btn--pinkOrange:hover {
-  background: $transitionPinkOrangeLight;
+  &:hover {
+    background: $transitionPinkOrangeLight;
+  }
 }
 
 .btn--pinkPurple {
+  @include btn;
   background: $transitionPinkPurple;
-}
 
-.btn--pinkPurple:hover {
-  background: $transitionPinkPurpleLight;
+  &:hover {
+    background: $transitionPinkPurpleLight;
+  }
 }
-
