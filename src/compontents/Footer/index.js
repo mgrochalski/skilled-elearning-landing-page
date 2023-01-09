@@ -1,11 +1,12 @@
 import styles from './Footer.module.scss';
 import ButtonFactory from "../Button";
 import logo from '../../image/logo-light.svg';
+import {useCallback} from "react";
 
 const Footer = () => {
-    const buttonClicked = () => {
+    const buttonClicked = useCallback(() => {
         console.log('clicked!!!');
-    }
+    });
 
     return (
         <div className={styles.main}>
