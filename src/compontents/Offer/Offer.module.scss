@@ -1,17 +1,40 @@
 @import "../../variables.scss";
-.main {
-  margin-top: 226px;
-  background: linear-gradient(180deg, #FFFFFF 0%, #F0F1FF 100%);
-  padding-bottom: 140px;
+
+@media (min-width: $tablet){
+  .main {
+    margin-top: 226px;
+    background: linear-gradient(180deg, #FFFFFF 0%, #F0F1FF 100%);
+    padding-bottom: 140px;
+  }
+
+  .box {
+    width: 690px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+    row-gap: 62px;
+    flex-wrap: wrap;
+    align-items: flex-end;
+  }
+
 }
 
-.box {
-  width: 1110px;
-  margin: auto;
-  display: flex;
-  flex-direction: row;
-  column-gap: 30px;
-  row-gap: 80px;
-  flex-wrap: wrap;
-  align-items: flex-end;
+@media (min-width: $desktop) {
+  .main {
+    margin-top: 226px;
+    background: linear-gradient(180deg, #FFFFFF 0%, #F0F1FF 100%);
+    padding-bottom: 140px;
+  }
+
+  .box {
+    width: 1110px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    column-gap: 30px;
+    row-gap: 80px;
+    flex-wrap: wrap;
+    align-items: flex-end;
+  }
 }
