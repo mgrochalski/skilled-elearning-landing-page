@@ -1,11 +1,11 @@
 import styles from './Offer.module.scss';
-import Card from "../Card";
-import AnimationImg from '../../image/icon-animation.svg';
-import Design from '../../image/icon-design.svg';
-import Photography from '../../image/icon-photography.svg';
-import Crypto from '../../image/icon-crypto.svg';
-import Business from '../../image/icon-business.svg';
-import ColoredCard from "../ColoredCard";
+import Card from "src/compontents/Card";
+import AnimationImg from 'src/image/icon-animation.svg';
+import DesignImg from 'src/image/icon-design.svg';
+import PhotographyImg from 'src/image/icon-photography.svg';
+import CryptoImg from 'src/image/icon-crypto.svg';
+import BusinessImg from 'src/image/icon-business.svg';
+import ColoredCard from "src/compontents/ColoredCard";
 
 const Offer = () => {
 
@@ -18,22 +18,22 @@ const Offer = () => {
         {
             title: "Design",
             description: "Create beautiful, usable interfaces to help shape the future of how the web looks.",
-            img: Design,
+            img: DesignImg,
         },
         {
             title: "Photography",
             description: "Explore critical fundamentals like lighting, composition, and focus to capture exceptional photos.",
-            img: Photography,
+            img: PhotographyImg,
         },
         {
             title: "Crypto",
             description: "All you need to know to get started investing in crypto. Go from beginner to advanced with this 54 hour course.",
-            img: Crypto,
+            img: CryptoImg,
         },
         {
             title: "Business",
             description: "A step-by-step playbook to help you start, scale, and sustain your business without outside investment.",
-            img: Business,
+            img: BusinessImg,
         },
     ];
 

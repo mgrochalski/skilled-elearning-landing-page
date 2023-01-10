@@ -1,6 +1,6 @@
 import styles from './Footer.module.scss';
-import ButtonFactory from "../Button";
-import logo from '../../image/logo-light.svg';
+import Button from "src/compontents/Button";
+import logo from 'src/image/logo-light.svg';
 import {useCallback} from "react";
 
 const Footer = () => {
@@ -12,7 +12,7 @@ const Footer = () => {
         <div className={styles.main}>
             <div className={styles.content}>
                 <img src={logo} alt='skilled'/>
-                <ButtonFactory text='Get Started' color='pinkPurple' buttonOnClickHandler={buttonClicked}/>
+                <Button text='Get Started' color='pinkPurple' buttonOnClickHandler={buttonClicked}/>
             </div>
         </div>
     );

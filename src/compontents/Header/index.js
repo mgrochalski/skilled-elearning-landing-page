@@ -1,6 +1,6 @@
 import styles from './Header.module.scss';
-import ButtonFactory from "../Button";
-import Logo from '../../image/logo-dark.svg';
+import Button from "src/compontents/Button";
+import Logo from 'src/image/logo-dark.svg';
 
 const Header = () => {
     const darkBlueOnClick = () => {
@@ -10,7 +10,7 @@ const Header = () => {
     return (
         <header className={styles.header}>
             <img src={Logo} alt='logo'/>
-            <ButtonFactory text='Get Started' color='darkBlue' buttonOnClickHandler={darkBlueOnClick}/>
+            <Button text='Get Started' color='darkBlue' buttonOnClickHandler={darkBlueOnClick}/>
         </header>
     );
 }

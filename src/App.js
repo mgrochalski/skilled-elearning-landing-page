@@ -1,8 +1,8 @@
 import styles from './App.module.scss';
-import Header from "./compontents/Header";
-import MainPanel from "./compontents/MainPanel";
-import Offer from "./compontents/Offer";
-import Footer from "./compontents/Footer";
+import Header from "src/compontents/Header";
+import MainPanel from "src/compontents/MainPanel";
+import Offer from "src/compontents/Offer";
+import Footer from "src/compontents/Footer";
 
 function App() {
 
