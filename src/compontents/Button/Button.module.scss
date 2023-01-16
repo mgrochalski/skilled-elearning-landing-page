@@ -1,0 +1,42 @@
+@import "../../variables.scss";
+
+@mixin btn {
+  font-family: $fontFamily;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  height: 56px;
+  border-radius: 28px;
+  min-width: 167px;
+  border: 0;
+  color: $white;
+}
+
+.btn--darkBlue {
+  @include btn;
+  background-color: $darkBlue;
+
+  &:hover {
+    background-color: $lightBlue;
+  }
+}
+
+.btn--pinkOrange {
+  @include btn;
+  background: $transitionPinkOrange;
+
+  &:hover {
+    background: $transitionPinkOrangeLight;
+  }
+}
+
+.btn--pinkPurple {
+  @include btn;
+  background: $transitionPinkPurple;
+
+  &:hover {
+    background: $transitionPinkPurpleLight;
+  }
+}

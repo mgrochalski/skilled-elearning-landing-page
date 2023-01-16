@@ -1,0 +1,17 @@
+@import "../../variables.scss";
+.main {
+  margin-top: 226px;
+  background: linear-gradient(180deg, #FFFFFF 0%, #F0F1FF 100%);
+  padding-bottom: 140px;
+}
+
+.box {
+  width: 1110px;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  column-gap: 30px;
+  row-gap: 80px;
+  flex-wrap: wrap;
+  align-items: flex-end;
+}

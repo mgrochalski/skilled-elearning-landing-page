@@ -1,0 +1,33 @@
+@import "../../variables.scss";
+
+.main {
+  display: flex;
+  flex-direction: row;
+  margin-top: 172px;
+}
+
+.cta {
+  display: flex;
+  flex-direction: column;
+  width: 457px;
+  align-items: flex-start;
+}
+
+.img {
+  position: absolute;
+  left: get-vw(540px);
+  top: -146.13px;
+  width: 991px;
+  height: 936px;
+  z-index: -1;
+}
+
+.title {
+  @include headingXl;
+}
+
+.description {
+  @include bodyM;
+  margin-top: 29px;
+  margin-bottom: 40px;
+}
