@@ -1,4 +1,4 @@
-@import "../../variables.scss";
+@import "src/variables.scss";
 
 .main {
   width: 350px;
@@ -15,10 +15,6 @@
   padding: 0 32px;
 }
 
-.img {
-  margin-top: -32px;
-}
-
 .title {
   @include headingS;
   padding-top: 64px;
@@ -30,6 +26,10 @@
   padding-bottom: 24px;
 }
 
+.img {
+  margin-top: -28px;
+}
+
 .url {
   font-family: $fontFamily;
   font-style: normal;
@@ -38,4 +38,25 @@
   line-height: 28px;
   color: $darkPink;
   text-decoration: none;
+}
+
+@media (max-width: $tablet) {
+  .main {
+    width: 340px;
+    height: 283px;
+  }
+
+  .box {
+    margin-top: 0;
+    width: 276px;
+    height: 283px;
+  }
+
+  .title {
+    padding-top: 24px;
+  }
+
+  .description {
+    padding-top: 16px;
+  }
 }

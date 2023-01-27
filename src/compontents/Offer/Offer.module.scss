@@ -1,4 +1,5 @@
-@import "../../variables.scss";
+@import "src/variables.scss";
+
 .main {
   margin-top: 226px;
   background: linear-gradient(180deg, #FFFFFF 0%, #F0F1FF 100%);
@@ -14,4 +15,19 @@
   row-gap: 80px;
   flex-wrap: wrap;
   align-items: flex-end;
+}
+
+@media (max-width: $tablet) {
+  .box {
+    width: 690px;
+    column-gap: 10px;
+    row-gap: 62px;
+  }
+}
+
+@media (max-width: $mobile) {
+  .box {
+    width: 343px;
+    row-gap: 40px;
+  }
 }

@@ -4,11 +4,15 @@ $gray: #83869A;
 $darkPink: #F74780;
 $pink: #FFA7C3;
 $white: #FFFFFF;
+
 $transitionPinkOrange: linear-gradient(180deg, #FF6F48 0.04%, #F02AA6 100%);
 $transitionPinkOrangeLight: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
 $transitionPinkPurple: linear-gradient(180deg, #4851FF 0%, #F02AA6 99.92%);
 $transitionPinkPurpleLight: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), linear-gradient(180deg, #4851FF -54.32%, #F02AA6 100%);
 $fontFamily: 'Plus Jakarta Sans', sans-serif;
+
+$tablet: 1150px;
+$mobile: 768px;
 
 @mixin heading {
   font-family: $fontFamily;

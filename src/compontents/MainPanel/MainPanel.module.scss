@@ -1,4 +1,4 @@
-@import "../../variables.scss";
+@import "src/variables.scss";
 
 .main {
   display: flex;
@@ -15,11 +15,9 @@
 
 .img {
   position: absolute;
-  left: get-vw(540px);
-  top: -146.13px;
-  width: 991px;
-  height: 936px;
   z-index: -1;
+  margin-top: -258px;
+  margin-left: 130px;
 }
 
 .title {
@@ -30,4 +28,15 @@
   @include bodyM;
   margin-top: 29px;
   margin-bottom: 40px;
+}
+
+@media (max-width: $tablet) {
+  .main {
+    margin: 105px 0 0 39px;
+  }
+
+  .img {
+    margin-top: -100px;
+    margin-left: 84px;
+  }
 }
