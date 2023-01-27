@@ -1,32 +1,28 @@
-@import '../../variables.scss';
+@import 'src/variables.scss';
 
-@media (min-width: $tablet) {
-  .main {
-    width: 276px;
-    height: 204px;
-    background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
-    border-radius: 15px;
-    padding-top: 56px;
-    padding-right: 32px;
-    padding-left: 32px;
-  }
+.main {
+  width: 286px;
+  height: 258px;
+  background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+  border-radius: 15px;
+  padding: 64px 32px 0 32px;
 }
-
-@media (min-width: $desktop) {
-  .main {
-    width: 286px;
-    height: 258px;
-    background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
-    border-radius: 15px;
-    padding-top: 64px;
-    padding-right: 32px;
-    padding-left: 32px;
-  }
-}
-
-
 
 .title {
   @include headingS;
   color: $white;
+}
+
+@media (max-width: $tablet) {
+  .main {
+    width: 276px;
+    height: 204px;
+    padding-top: 56px;
+  }
+}
+
+@media (max-width: $mobile) {
+  .main {
+    height: 120px;
+  }
 }
